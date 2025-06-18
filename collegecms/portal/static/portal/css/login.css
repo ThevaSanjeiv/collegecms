@@ -33,17 +33,13 @@ body {
   color: #333;
   margin-bottom: 10px;
 }
-.form input,
-.form button {
+.form input, .form button {
   width: 100%;
   padding: 16px 32px;
   border-radius: 12px;
   font-size: 1.1em;
   border: 1px solid #ccc;
   transition: all 0.3s ease;
-}
-.form input::-moz-placeholder {
-  text-align: center;
 }
 .form input::placeholder {
   text-align: center;
@@ -94,8 +90,7 @@ body {
   .form h1 {
     font-size: 1.8rem;
   }
-  .form input,
-  .form button {
+  .form input, .form button {
     padding: 14px 16px;
     font-size: 1em;
   }
@@ -104,4 +99,4 @@ body {
     gap: 10px;
     align-items: center;
   }
-}/*# sourceMappingURL=login.css.map */
+}

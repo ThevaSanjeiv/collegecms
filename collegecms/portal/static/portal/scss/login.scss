@@ -37,8 +37,7 @@ body {
     margin-bottom: 10px;
   }
 
-  input,
-  button {
+  input,button {
     width: 100%;
     padding: 16px 32px;
     border-radius: 12px;
@@ -48,26 +47,22 @@ body {
   }
   input::placeholder {
   text-align: center;
-}
-
-
+  }
   input:focus {
     border-color: #66a6ff;
     outline: none;
     box-shadow: 0 0 10px rgba(102, 166, 255, 0.25);
   }
-
   button {
-   background: linear-gradient(to bottom right, #283e51, #4b79a1);
-  color: #ffffff;
-  border: none;
-  font-weight: bold;
-  transition:0.3s ;
-
-  &:hover {
-    cursor: pointer;
+    background: linear-gradient(to bottom right, #283e51, #4b79a1);
+    color: #ffffff;
+    border: none;
+    font-weight: bold;
+    transition:0.3s ;
+    &:hover {
+        cursor: pointer;
+    }
   }
-}
   a {
     font-size: 1em;
     color: #66a6ff;
@@ -88,28 +83,22 @@ body {
     gap: 60px;
   }
 }
-
 @media (max-width: 900px) {
   .form {
     padding: 50px 40px;
   }
 }
-
 @media (max-width: 600px) {
   .form {
     padding: 40px 30px;
     gap: 20px;
-
     h1 {
       font-size: 1.8rem;
     }
-
-    input,
-    button {
+    input,button {
       padding: 14px 16px;
       font-size: 1em;
     }
-
     .link {
       flex-direction: column;
       gap: 10px;
