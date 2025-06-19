@@ -1,4 +1,4 @@
-from .db import students, faculty
+from .db import students, faculty,admin
 
 def checkUser(email):
     try:
@@ -9,6 +9,10 @@ def checkUser(email):
         user = faculty.find_one({"email": email})
         if user:
             user["role"] = "faculty"
+            return user
+        user=admin.find_one({"email":email})
+        if user:
+            user["role"]=="admin"
             return user
         return None
     except Exception as e:
